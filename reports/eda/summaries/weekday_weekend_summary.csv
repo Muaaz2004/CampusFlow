@@ -1,0 +1,3 @@
+day_type,total_trips,total_passengers,average_passengers,average_occupancy
+Weekday,21451,443811,20.69,0.59
+Weekend,8549,96824,11.33,0.32

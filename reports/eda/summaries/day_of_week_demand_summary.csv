@@ -1,0 +1,8 @@
+day_of_week,day_name,total_trips,total_passengers,average_passengers,average_occupancy
+0,Monday,4133,86140,20.84,0.6
+1,Tuesday,4292,88478,20.61,0.59
+2,Wednesday,4512,93082,20.63,0.59
+3,Thursday,4239,87799,20.71,0.59
+4,Friday,4275,88312,20.66,0.59
+5,Saturday,4281,48521,11.33,0.32
+6,Sunday,4268,48303,11.32,0.32

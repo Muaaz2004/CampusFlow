@@ -1,0 +1,5 @@
+route_id,route_name,start_stop,end_stop,distance_km,is_synthetic
+R01,North Loop,ST01,ST07,5.2,true
+R02,South Connector,ST12,ST03,4.8,true
+R03,Academic Express,ST02,ST10,6.1,true
+R04,Campus Circular,ST03,ST01,7.4,true

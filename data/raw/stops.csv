@@ -1,0 +1,13 @@
+stop_id,stop_name,zone,latitude,longitude,is_synthetic
+ST01,North Hostel,Residential,31.256,75.704,true
+ST02,South Hostel,Residential,31.251,75.7045,true
+ST03,Main Gate,Entrance,31.247,75.706,true
+ST04,Academic Block A,Academic,31.253,75.71,true
+ST05,Academic Block B,Academic,31.25,75.713,true
+ST06,Central Library,Academic,31.254,75.716,true
+ST07,Cafeteria,Food,31.249,75.718,true
+ST08,Sports Complex,Recreation,31.245,75.714,true
+ST09,Auditorium,Events,31.258,75.713,true
+ST10,Research Park,Academic,31.26,75.718,true
+ST11,Medical Centre,Services,31.243,75.709,true
+ST12,Transit Hub,Transport,31.24,75.704,true

@@ -1,0 +1,4 @@
+weather,total_trips,total_passengers,average_passengers,average_occupancy,average_temperature,average_rainfall
+clear,18240,342165,18.76,0.54,23.63,1.03
+cloudy,5532,100003,18.08,0.52,23.85,0.88
+rainy,6228,98467,15.81,0.45,25.12,11.87

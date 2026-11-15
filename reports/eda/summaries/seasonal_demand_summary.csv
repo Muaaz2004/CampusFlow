@@ -1,0 +1,5 @@
+season,total_trips,total_passengers,average_passengers,average_occupancy,average_temperature,average_rainfall
+autumn,5046,92800,18.39,0.52,23.3,1.38
+monsoon,9969,172063,17.26,0.49,26.94,6.72
+summer,7593,139342,18.35,0.53,31.13,1.64
+winter,7392,136430,18.46,0.53,13.11,1.52

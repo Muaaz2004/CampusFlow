@@ -1,0 +1,7 @@
+dataset,total_rows,total_columns,missing_cells,duplicate_rows
+stops.csv,12,6,0,0
+routes.csv,4,6,0,0
+route_stops.csv,21,4,0,0
+weather.csv,365,6,0,0
+trips.csv,30000,23,0,0
+trips.csv - trip_id check,30000,23,0,0

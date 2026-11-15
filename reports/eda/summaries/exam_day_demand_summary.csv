@@ -1,0 +1,3 @@
+exam_category,total_trips,total_passengers,average_passengers,average_occupancy
+Exam Day,1209,25369,20.98,0.6
+Normal Day,28791,515266,17.9,0.51

@@ -1,0 +1,5 @@
+rainfall_category,total_trips,average_passengers,average_occupancy,average_temperature
+No Rain,525,16.6,0.47,23.42
+Light Rain,23934,18.54,0.53,23.62
+Moderate Rain,3599,16.42,0.47,25.16
+Heavy Rain,1942,15.02,0.43,26.41

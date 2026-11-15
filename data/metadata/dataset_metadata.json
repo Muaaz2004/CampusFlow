@@ -1,0 +1,15 @@
+{
+  "project": "CampusFlow",
+  "dataset_version": "1.0.0",
+  "synthetic": true,
+  "description": "Fictional campus shuttle data for coursework; not real ridership.",
+  "seed": 20261105,
+  "start_date": "2025-01-01",
+  "end_date": "2025-12-31",
+  "calendar_days": 365,
+  "trip_count": 30000,
+  "event_count": 60000,
+  "stop_count": 12,
+  "route_count": 4,
+  "bus_count": 6
+}

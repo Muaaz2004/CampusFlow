@@ -1,0 +1,7 @@
+stop_id,origin_trips,destination_trips,total_stop_usage,stop_name
+ST01,7560.0,7447.0,15007.0,North Hostel
+ST03,7447.0,7506.0,14953.0,Main Gate
+ST07,0.0,7560.0,7560.0,Cafeteria
+ST12,7506.0,0.0,7506.0,Transit Hub
+ST02,7487.0,0.0,7487.0,South Hostel
+ST10,0.0,7487.0,7487.0,Research Park

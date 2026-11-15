@@ -1,0 +1,16 @@
+
+# CampusFlow - Python Dependencies
+# Verified with Python 3.13.2
+
+# Dashboard
+streamlit==1.67.0
+plotly==7.1.0
+
+# Data processing and analysis
+pandas==2.3.3
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Kafka integration
+kafka-python==3.0.13

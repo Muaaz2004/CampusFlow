@@ -1,0 +1,24 @@
+feature,data_type,feature_category,decision,reason
+hour,int64,Numerical,INCLUDE,Available before trip prediction.
+day_of_week,int64,Numerical,INCLUDE,Available before trip prediction.
+is_weekend,int64,Numerical,INCLUDE,Available before trip prediction.
+temperature_c,float64,Numerical,INCLUDE,Available before trip prediction.
+rainfall_mm,float64,Numerical,INCLUDE,Available before trip prediction.
+is_exam_day,int64,Numerical,INCLUDE,Available before trip prediction.
+is_event_day,int64,Numerical,INCLUDE,Available before trip prediction.
+distance_km,float64,Numerical,INCLUDE,Available before trip prediction.
+bus_capacity_seats,int64,Numerical,INCLUDE,Available before trip prediction.
+route_id,str,Categorical,INCLUDE,Available before trip prediction.
+season,str,Categorical,INCLUDE,Available before trip prediction.
+weather,str,Categorical,INCLUDE,Available before trip prediction.
+source_stop,str,Categorical,INCLUDE,Available before trip prediction.
+destination_stop,str,Categorical,INCLUDE,Available before trip prediction.
+trip_id,str,Excluded,EXCLUDE,Unique identifier; not a useful predictor.
+bus_id,str,Excluded,EXCLUDE,Vehicle identifier; capacity is represented separately if verified.
+travel_date,datetime64[us],Excluded,EXCLUDE,"Used for chronological splitting, not directly as a feature."
+departure_time,str,Excluded,EXCLUDE,Hour is already represented by the hour column.
+arrival_time,str,Excluded,EXCLUDE,Post-trip information; unavailable before prediction.
+day_name,str,Excluded,EXCLUDE,Redundant with day_of_week.
+occupancy_rate,float64,Excluded,EXCLUDE,Target leakage: calculated using passenger_count.
+duration_minutes,int64,Excluded,EXCLUDE,Post-trip information; unavailable before departure.
+passenger_count,int64,Excluded,EXCLUDE,"Prediction target, not an input feature."

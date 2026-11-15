@@ -1,0 +1,60 @@
+
+# Python environments
+.venv/
+.venv-spark313/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Spark runtime files
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Reports: exclude generated outputs by default
+reports/*
+
+# Include EDA reports
+!reports/eda/
+!reports/eda/**
+
+# Include GraphX results
+!reports/graphx/
+!reports/graphx/**
+
+# Include ML deployment pipeline only
+!reports/ml/
+reports/ml/*
+!reports/ml/campusflow_demand_pipeline/
+!reports/ml/campusflow_demand_pipeline/**
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+
+# Local backup
+/app_backup_before_prediction_design.py
+
+# Hadoop/Spark checksum files
+*.crc
+
+# Generated ML train/test exports inside EDA summaries
+/reports/eda/summaries/07_train_dataset.csv
+/reports/eda/summaries/07_test_dataset.csv

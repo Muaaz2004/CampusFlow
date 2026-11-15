@@ -1,0 +1,82 @@
+{
+    "project": "CampusFlow",
+    "analysis": "EDA 7 - Machine Learning Readiness",
+    "total_records": 30000,
+    "target": "passenger_count",
+    "problem_type": "Supervised Regression",
+    "selected_features": [
+        "hour",
+        "day_of_week",
+        "is_weekend",
+        "temperature_c",
+        "rainfall_mm",
+        "is_exam_day",
+        "is_event_day",
+        "distance_km",
+        "bus_capacity_seats",
+        "route_id",
+        "season",
+        "weather",
+        "source_stop",
+        "destination_stop"
+    ],
+    "numerical_features": [
+        "hour",
+        "day_of_week",
+        "is_weekend",
+        "temperature_c",
+        "rainfall_mm",
+        "is_exam_day",
+        "is_event_day",
+        "distance_km",
+        "bus_capacity_seats"
+    ],
+    "categorical_features": [
+        "route_id",
+        "season",
+        "weather",
+        "source_stop",
+        "destination_stop"
+    ],
+    "excluded_features": {
+        "trip_id": "Unique identifier; not a useful predictor.",
+        "bus_id": "Vehicle identifier; capacity is represented separately if verified.",
+        "travel_date": "Used for chronological splitting, not directly as a feature.",
+        "departure_time": "Hour is already represented by the hour column.",
+        "arrival_time": "Post-trip information; unavailable before prediction.",
+        "day_name": "Redundant with day_of_week.",
+        "occupancy_rate": "Target leakage: calculated using passenger_count.",
+        "duration_minutes": "Post-trip information; unavailable before departure.",
+        "passenger_count": "Prediction target, not an input feature."
+    },
+    "available_seats_treated_as_capacity": true,
+    "feature_missing_values": {
+        "hour": 0,
+        "day_of_week": 0,
+        "is_weekend": 0,
+        "temperature_c": 0,
+        "rainfall_mm": 0,
+        "is_exam_day": 0,
+        "is_event_day": 0,
+        "distance_km": 0,
+        "bus_capacity_seats": 0,
+        "route_id": 0,
+        "season": 0,
+        "weather": 0,
+        "source_stop": 0,
+        "destination_stop": 0
+    },
+    "split_method": "Chronological 80/20 by distinct travel dates",
+    "split_date": "2025-10-20",
+    "training_records": 23998,
+    "testing_records": 6002,
+    "training_start": "2025-01-01",
+    "training_end": "2025-10-19",
+    "testing_start": "2025-10-20",
+    "testing_end": "2025-12-31",
+    "target_leakage_excluded": [
+        "occupancy_rate",
+        "duration_minutes",
+        "arrival_time"
+    ]
+}

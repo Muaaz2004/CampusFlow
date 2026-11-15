@@ -1,0 +1,7 @@
+column,missing_values,minimum,maximum
+passenger_count,0,0.0,40.0
+distance_km,0,4.8,7.4
+duration_minutes,0,16.0,42.0
+temperature_c,0,8.1,35.9
+rainfall_mm,0,0.0,24.8
+available_seats,0,30.0,40.0
